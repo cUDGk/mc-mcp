@@ -1,0 +1,21 @@
+{
+  "name": "mc-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for controlling Minecraft bots via mineflayer",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "mc-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "mineflayer": "^4.34.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "rcon-client": "^4.2.5",
+    "vec3": "^0.1.10",
+    "zod": "^3.23.8"
+  }
+}
