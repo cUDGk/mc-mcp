@@ -126,7 +126,7 @@ move_to { "name": "CLAUDE", "x": 100, "y": 64, "z": 100 }
 - `.png` で終わること
 - `/windows/`, `/program files/`, `/system32/`, `/etc/`, `/bin/` 等のシステムディレクトリを拒否（大文字小文字を問わず）
 
-レンダリング用ライブラリ（`canvas`, `node-canvas-webgl`, `prismarine-viewer`, `puppeteer`, `three`）は `optionalDependencies` に入っています。MCPサーバー本体には不要なため、`screenshot.js` を使う場合のみ `npm install --include=optional` でインストールしてください。
+レンダリング用ライブラリ（`canvas`, `node-canvas-webgl`, `prismarine-viewer`, `three`）は `optionalDependencies` に入っています。MCPサーバー本体には不要なため、`screenshot.js` を使う場合のみ `npm install --include=optional` でインストールしてください。
 
 ```bash
 MC_RCON_PASSWORD=... node screenshot.js --output ./fort.png
